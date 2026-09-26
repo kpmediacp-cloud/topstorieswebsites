@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta name="google-site-verification" content="3akqxMn9kBGY_oyxid_evwXYu7mPGNvvjY8Ee-tj2jA" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News Publishing Authority & SEO Strategy Articles Vault - TopStoriesWebsites.com</title>
@@ -15,6 +16,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <!-- Stylesheet -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="stylesheet" href="/css/style.css">
 
   <!-- Schema.org JSON-LD -->
@@ -105,700 +107,343 @@
       </h1>
 
       <p class="hero-description">
-        Browse our complete library of 30 research-backed articles exploring traffic glitches, Google Discover algorithms, Top Stories carousel triggers, and media asset flipping.
+        Access our elite editorial research on algorithmic traffic glitches, real-time Google Discover engineering, and news media asset valuation. Browse the latest publications released today from our senior newsroom desk.
       </p>
     </div>
   </section>
 
-    <!-- Filter & Editorial Schedule Roadmap Tabs -->
-  <section class="container" style="margin-bottom: 30px;">
-    <div style="display: flex; gap: 8px; flex-wrap: wrap; padding-bottom: 12px; border-bottom: 1px solid var(--border-subtle); margin-bottom: 24px;">
-      <button class="filter-tab active" onclick="filterArticles('today', this)" id="tabToday">● Live Now (Today - 2)</button>
-      <button class="filter-tab" onclick="filterArticles('scheduled', this)" id="tabScheduled">⏱ Scheduled Queue (28)</button>
-      <button class="filter-tab" onclick="filterArticles('all', this)" id="tabAll">All 30 Masterclasses</button>
-      <button class="filter-tab" onclick="filterArticles('oct', this)">Oct 2026 (5)</button>
-      <button class="filter-tab" onclick="filterArticles('nov', this)">Nov 2026 (5)</button>
-      <button class="filter-tab" onclick="filterArticles('dec', this)">Dec 2026 (5)</button>
-      <button class="filter-tab" onclick="filterArticles('jan', this)">Jan 2027 (5)</button>
-      <button class="filter-tab" onclick="filterArticles('feb', this)">Feb 2027 (4)</button>
-      <button class="filter-tab" onclick="filterArticles('mar', this)">Mar 2027 (4)</button>
+      <!-- Published Articles Filter Tabs -->
+  <section class="container" style="margin-bottom: 24px;">
+    <div style="display: flex; gap: 10px; flex-wrap: wrap; padding-bottom: 12px; border-bottom: 1px solid var(--border-subtle); margin-bottom: 24px;">
+      <button class="filter-tab active" onclick="filterPublished('all', this)">All Published Articles (<span id="publishedArticlesCount">2</span>)</button>
+      <button class="filter-tab" onclick="filterPublished('Traffic Glitches', this)">Traffic Glitches (1)</button>
+      <button class="filter-tab" onclick="filterPublished('Instant Indexing', this)">Instant Indexing (1)</button>
     </div>
 
-    <!-- Live vs Scheduled Status Callout Banner -->
-    <div id="articlesStatusBanner" style="background: rgba(5, 150, 105, 0.06); border: 1px solid rgba(5, 150, 105, 0.25); border-radius: 14px; padding: 16px 22px; margin-bottom: 32px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
-      <div style="display: flex; align-items: center; gap: 12px;">
+    <!-- Active Live Status Callout -->
+    <div style="background: rgba(5, 150, 105, 0.06); border: 1px solid rgba(5, 150, 105, 0.25); border-radius: 12px; padding: 14px 20px; margin-bottom: 30px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;">
+      <div style="display: flex; align-items: center; gap: 10px;">
         <span class="pulse-dot"></span>
-        <span style="font-size: 0.95rem; color: var(--text-main); font-weight: 700;">
-          Currently Showing: <strong style="color: var(--accent-emerald);">2 Live Masterclasses Published Today (September 26, 2026)</strong>
+        <span style="font-size: 0.925rem; color: var(--text-main); font-weight: 700;">
+          Live Editorial Feed: <strong style="color: var(--accent-emerald);">2 Masterclasses Published Today (September 26, 2026)</strong>
         </span>
       </div>
       <span style="font-size: 0.85rem; color: var(--text-dim);">
-        28 upcoming strategic assets scheduled (4–6 per month). Click <strong>'Scheduled Queue'</strong> to inspect upcoming publications.
+        All remaining strategic assets are held in our backend queue and will automatically publish on their scheduled release dates.
       </span>
     </div>
 
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 24px;" id="articlesGrid">
+    <!-- Articles Grid: Exactly 2 Published Today -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 24px;" id="articlesGrid">
       
-        <article class="listing-card art-card" data-status="live" data-month="today" style="display: flex; flex-direction: column; justify-content: space-between;">
+      <!-- Article 1: Published Today -->
+      <article class="listing-card art-card" data-category="Traffic Glitches" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+            <span class="badge badge-emerald">● Published Today</span>
+            <span style="font-size: 0.775rem; color: var(--text-dim); font-weight: 600;">8 min read • 2,050 Words</span>
+          </div>
+
+          <h3 style="font-size: 1.35rem; font-weight: 700; margin-bottom: 12px; line-height: 1.35;">
+            <a href="glitch-to-get-unlimited-organic-traffic-gray-hat-way/" style="color: var(--text-main);">Glitch To Get Unlimited Organic Traffic — The Gray Hat News Syndicate Way</a>
+          </h3>
+
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 22px;">
+            Discover the underground 'glitch' elite media networks use to bypass Google's sandbox, exploit the WebSub real-time indexing pipeline, and generate millions of organic clicks using pre-approved Google News assets. Includes real-world production configurations, server architecture, and live traffic metrics.
+          </p>
+        </div>
+
+        <div style="padding-top: 16px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
           <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-emerald">● Published Today</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
+            <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-main); display: block;">Marcus Vance</span>
+            <span style="font-size: 0.75rem; color: var(--text-dim);">Published: Sep 26, 2026 • 09:30 AM EST</span>
+          </div>
+          <a href="glitch-to-get-unlimited-organic-traffic-gray-hat-way/" class="btn btn-primary btn-sm">Read Masterclass &rarr;</a>
+        </div>
+      </article>
 
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="glitch-to-get-unlimited-organic-traffic-gray-hat-way/" style="color: var(--text-main);">Glitch To Get Unlimited Organic Traffic — The Gray Hat News Syndicate Way</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Discover the underground 'glitch' elite media networks use to bypass Google's sandbox, exploit the WebSub real-time indexing pipeline, and generate millions of organic clicks using pre-approved Google News assets.
-            </p>
+      <!-- Article 2: Published Today -->
+      <article class="listing-card art-card" data-category="Instant Indexing" style="display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 14px;">
+            <span class="badge badge-emerald">● Published Today</span>
+            <span style="font-size: 0.775rem; color: var(--text-dim); font-weight: 600;">7 min read • 2,038 Words</span>
           </div>
 
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-09-26 • 09:30 AM EST</span>
-            <a href="glitch-to-get-unlimited-organic-traffic-gray-hat-way/" class="btn btn-primary btn-sm">Read Masterclass &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="live" data-month="today" style="display: flex; flex-direction: column; justify-content: space-between;">
+          <h3 style="font-size: 1.35rem; font-weight: 700; margin-bottom: 12px; line-height: 1.35;">
+            <a href="how-to-instantly-get-ranked-in-search-engines/" style="color: var(--text-main);">How to Instantly Get Ranked in Search Engines (Sub-60s Indexing Hack)</a>
+          </h3>
+
+          <p style="font-size: 0.9rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 22px;">
+            Standard websites wait 3 to 14 days for new pages to crawl. Learn how to achieve sub-60 second Google ranking by leveraging established publisher status, IndexNow webhooks, and real-time news sitemaps. Complete technical walkthrough and verification logs.
+          </p>
+        </div>
+
+        <div style="padding-top: 16px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
           <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-emerald">● Published Today</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">7 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="how-to-instantly-get-ranked-in-search-engines/" style="color: var(--text-main);">How to Instantly Get Ranked in Search Engines (Sub-60s Indexing Hack)</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Standard websites wait 3 to 14 days for new pages to crawl. Learn how to achieve sub-60 second Google ranking by leveraging established publisher status and real-time news sitemaps.
-            </p>
+            <span style="font-size: 0.8rem; font-weight: 600; color: var(--text-main); display: block;">Elena Rostova</span>
+            <span style="font-size: 0.75rem; color: var(--text-dim);">Published: Sep 26, 2026 • 02:15 PM EST</span>
           </div>
+          <a href="how-to-instantly-get-ranked-in-search-engines/" class="btn btn-primary btn-sm">Read Masterclass &rarr;</a>
+        </div>
+      </article>
 
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-09-26 • 02:15 PM EST</span>
-            <a href="how-to-instantly-get-ranked-in-search-engines/" class="btn btn-primary btn-sm">Read Masterclass &rarr;</a>
-          </div>
-        </article>
+    </div>
+  </section>
+
+  
+  <!-- Comprehensive Technical Architecture & Editorial Governance Framework -->
+  <section class="container" style="margin-bottom: 70px;">
+    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 48px; box-shadow: var(--shadow-card);">
       
-        <article class="listing-card art-card" data-status="scheduled" data-month="oct" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Oct 3, 2026 • 11:20 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">9 min read</span>
-            </div>
+      <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 16px;">
+        <span class="badge badge-emerald">Institutional Research Paper</span>
+        <span style="font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-mono);">REF: TS-PUB-ARCH-2026</span>
+      </div>
 
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="why-buying-google-news-sites-is-the-ultimate-seo-cheat-code/" style="color: var(--text-main);">Why Buying Google News Sites Is the Ultimate SEO Cheat Code in 2026</a>
-            </h3>
+      <h2 style="font-size: 2.1rem; font-weight: 800; color: var(--text-main); margin-bottom: 24px; line-height: 1.25;">
+        The Engineering Architecture of News-Approved Media Assets: <br>
+        <span class="gradient-text">Algorithmic Fast-Paths, WebSub Pipelines, and Crawl Budget Primacy</span>
+      </h2>
 
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Why waste 12 months in the Google Sandbox burning cash on guest posts? Understand the financial ROI, crawl budget priority, and algorithmic trust baked into established news publishing assets.
-            </p>
-          </div>
+      <p style="font-size: 1.05rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 28px;">
+        Within modern information retrieval systems, search engine crawlers operate under finite computational constraints known as crawl budgets. Standard content websites, commercial landing pages, and affiliate blogs are indexed through asynchronous batch processing cycles that routinely delay content discovery by 72 hours to 14 days. Conversely, digital media properties with verified news status operate on priority event-driven ingestion pipelines. Understanding this architectural dichotomy is essential for institutional investors, digital media conglomerates, and enterprise search marketers seeking guaranteed distribution velocity.
+      </p>
 
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-10-03 • 11:20 AM EST</span>
-            <a href="why-buying-google-news-sites-is-the-ultimate-seo-cheat-code/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-bottom: 40px;">
+        <div style="padding: 26px; background: #f8fafc; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); border-left: 4px solid var(--primary-cyan);">
+          <h3 style="font-size: 1.2rem; color: var(--text-main); margin-bottom: 12px; font-weight: 700;">1. WebSub & PubSubHubbub Push Architecture</h3>
+          <p style="font-size: 0.925rem; line-height: 1.7; color: var(--text-muted); margin: 0;">
+            Rather than relying on periodic HTTP GET polling from search bots, news-approved assets utilize the W3C WebSub (formerly PubSubHubbub) protocol. When an editorial item is published, the content management system instantly broadcasts an automated cryptographic webhook to Google's central hub at pubsubhubbub.appspot.com. Googlebot-News immediately intercepts the feed payload, parses the entity structure, and injects the URL into the active real-time index in sub-60-second execution windows.
+          </p>
+        </div>
+
+        <div style="padding: 26px; background: #f8fafc; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); border-left: 4px solid var(--accent-emerald);">
+          <h3 style="font-size: 1.2rem; color: var(--text-main); margin-bottom: 12px; font-weight: 700;">2. The QDF (Query Deserves Freshness) Heuristic</h3>
+          <p style="font-size: 0.925rem; line-height: 1.7; color: var(--text-muted); margin: 0;">
+            During breaking news cycles or volatile informational events, Google's ranking systems activate the Query Deserves Freshness filter. Standard search engine result pages (SERPs) are dynamically reconfigured to present multi-card Top Stories carousels and real-time news modules above evergreen organic positions. Only domains holding active publisher credentials and verified topical authority vectors are permitted to populate these prime visual real estate placements.
+          </p>
+        </div>
+
+        <div style="padding: 26px; background: #f8fafc; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle); border-left: 4px solid var(--accent-purple);">
+          <h3 style="font-size: 1.2rem; color: var(--text-main); margin-bottom: 12px; font-weight: 700;">3. Generative Engine Entity Inclusion (GEO)</h3>
+          <p style="font-size: 0.925rem; line-height: 1.7; color: var(--text-muted); margin: 0;">
+            Retrieval-Augmented Generation (RAG) architectures powering Google AI Overviews, Perplexity AI, and OpenAI ChatGPT rely on pre-validated entity nodes to avoid factual hallucination. Media assets verified in the Google Publisher Center and indexed via schema-compliant NewsArticle protocols maintain verified publisher entity status within the Google Knowledge Graph, ensuring preferential citation across AI-generated synthesis panels.
+          </p>
+        </div>
+      </div>
+
+      <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-main); margin-bottom: 20px;">
+        Institutional Due Diligence: 5-Stage Asset Verification Methodology
+      </h3>
+      <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 24px;">
+        Acquiring a digital publishing asset requires comprehensive forensic verification across historical indexation records, algorithmic penalty footprints, and technical infrastructure. Every property curated and brokered on TopStoriesWebsites.com undergoes our proprietary five-stage audit before listing approval:
+      </p>
+
+      <div style="overflow-x: auto; margin-bottom: 36px;">
+        <table class="data-table" style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+          <thead>
+            <tr style="background: #f1f5f9; border-bottom: 2px solid var(--border-subtle); text-align: left;">
+              <th style="padding: 14px 16px; font-weight: 700;">Audit Phase</th>
+              <th style="padding: 14px 16px; font-weight: 700;">Verification Parameter</th>
+              <th style="padding: 14px 16px; font-weight: 700;">Diagnostic Benchmark</th>
+              <th style="padding: 14px 16px; font-weight: 700;">Risk Mitigation Threshold</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid var(--border-subtle);">
+              <td style="padding: 14px 16px; font-weight: 700; color: var(--primary-cyan);">Phase 1: Indexation Speed</td>
+              <td style="padding: 14px 16px;">Live WebSub & Site-Operator Crawl Test</td>
+              <td style="padding: 14px 16px;">Sub-3 minute discovery under site operator search</td>
+              <td style="padding: 14px 16px; color: var(--accent-emerald);">Zero indexing delay; immediate news tab visibility</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-subtle);">
+              <td style="padding: 14px 16px; font-weight: 700; color: var(--primary-cyan);">Phase 2: Publisher Verification</td>
+              <td style="padding: 14px 16px;">Google Publisher Center Primary Account Ownership</td>
+              <td style="padding: 14px 16px;">Direct account transfer without domain drop or re-verification</td>
+              <td style="padding: 14px 16px; color: var(--accent-emerald);">Continuous entity status preserved across transfer</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-subtle);">
+              <td style="padding: 14px 16px; font-weight: 700; color: var(--primary-cyan);">Phase 3: Discover Historical Velocity</td>
+              <td style="padding: 14px 16px;">Google Search Console Trailing 90-Day Performance</td>
+              <td style="padding: 14px 16px;">Verified Discover impressions and click-through metrics</td>
+              <td style="padding: 14px 16px; color: var(--accent-emerald);">Demonstrated mobile feed affinity without manual actions</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-subtle);">
+              <td style="padding: 14px 16px; font-weight: 700; color: var(--primary-cyan);">Phase 4: Algorithmic Cleanliness</td>
+              <td style="padding: 14px 16px;">Manual Penalty & Security Inspection</td>
+              <td style="padding: 14px 16px;">Clean Search Console Security & Manual Actions tabs</td>
+              <td style="padding: 14px 16px; color: var(--accent-emerald);">100% clean record with zero algorithmic suppressions</td>
+            </tr>
+            <tr style="border-bottom: 1px solid var(--border-subtle);">
+              <td style="padding: 14px 16px; font-weight: 700; color: var(--primary-cyan);">Phase 5: Backlink Forensics</td>
+              <td style="padding: 14px 16px;">Historical Anchor Text & Toxicity Analysis</td>
+              <td style="padding: 14px 16px;">Ahrefs/Majestic organic link profile with DR 30+ to 70+</td>
+              <td style="padding: 14px 16px; color: var(--accent-emerald);">Absence of PBN footprints, foreign spam anchors, or redirects</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-main); margin-bottom: 20px;">
+        Monetization Unit Economics & Yield Optimization
+      </h3>
+      <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 20px;">
+        Operating an authoritative digital media property delivers substantially higher unit economics than standard niche content blogs. By combining programmatic header bidding, direct client press release distribution, and contextual affiliate commerce, verified publishers achieve diversified, high-margin revenue profiles:
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 32px;">
+        <div style="padding: 22px; background: #ffffff; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);">
+          <h4 style="font-size: 1.1rem; color: var(--text-main); margin-bottom: 8px;">1. Programmatic Header Bidding</h4>
+          <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 10px;">
+            Implementing Prebid.js connected to Google AdX, Magnite, OpenX, and Amazon TAM allows publishers to command $28 to $65 page RPMs on Tier-1 US/UK traffic.
+          </p>
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--primary-cyan);">Yield: 50% to 65% of Total Gross Revenue</span>
+        </div>
+
+        <div style="padding: 22px; background: #ffffff; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);">
+          <h4 style="font-size: 1.1rem; color: var(--text-main); margin-bottom: 8px;">2. Direct Press Release Distribution</h4>
+          <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 10px;">
+            Corporate PR agencies, crypto protocols, and fintech startups pay between $450 and $2,500 per sponsored publication on verified Google News domains.
+          </p>
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--accent-emerald);">Yield: 25% to 35% of Total Gross Revenue</span>
+        </div>
+
+        <div style="padding: 22px; background: #ffffff; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);">
+          <h4 style="font-size: 1.1rem; color: var(--text-main); margin-bottom: 8px;">3. Contextual Commerce & Syndication</h4>
+          <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 10px;">
+            Syndicating high-intent buyer guides and product releases across Google Discover and Bing News captures high-converting impulse commercial transactions.
+          </p>
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--accent-purple);">Yield: 15% to 25% of Total Gross Revenue</span>
+        </div>
+      </div>
+
+      <!-- Extended Technical FAQ Section -->
+      <h3 style="font-size: 1.5rem; font-weight: 800; color: var(--text-main); margin-bottom: 20px;">
+        Frequently Asked Questions: Digital News Publishing & Algorithmic Indexation
+      </h3>
       
-        <article class="listing-card art-card" data-status="scheduled" data-month="oct" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Oct 9, 2026 • 04:45 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
+      <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 32px;">
+        <div style="padding: 20px; background: #f8fafc; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);">
+          <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            How does Google determine eligibility for the Google Top Stories carousel?
+          </h4>
+          <p style="font-size: 0.9rem; line-height: 1.7; color: var(--text-muted); margin: 0;">
+            Eligibility is governed by automated algorithmic systems evaluating topical authority, entity salience, fresh reporting velocity, and Page Experience Core Web Vitals. While manual submission through the Google Publisher Center is no longer the sole gatekeeper, grandfathered Publisher Center approvals and verified entity profiles provide significant indexing velocity advantages.
+          </p>
+        </div>
 
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="google-sandbox-bypass-the-publisher-center-loophole/" style="color: var(--text-main);">Google Sandbox Bypass: The Publisher Center Loophole Every SEO Ignores</a>
-            </h3>
+        <div style="padding: 20px; background: #f8fafc; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);">
+          <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            What is the difference between Google News and Google Discover traffic?
+          </h4>
+          <p style="font-size: 0.9rem; line-height: 1.7; color: var(--text-muted); margin: 0;">
+            Google News traffic is predominantly query-driven or section-browse intent based on active breaking events. In contrast, Google Discover is a queryless, algorithmic predictive feed tailored to individual user interest profiles. Discover traffic produces massive viral click-through spikes that can generate hundreds of thousands of sessions within a 48-hour cycle.
+          </p>
+        </div>
 
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              The Google algorithmic sandbox traps 99% of fresh content sites in zero-impression purgatory. Here is how media conglomerates bypass probation entirely by acquiring grandfathered news properties.
-            </p>
-          </div>
+        <div style="padding: 20px; background: #f8fafc; border: 1px solid var(--border-subtle); border-radius: var(--radius-sm);">
+          <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            How are domain ownership transfers handled securely during acquisition?
+          </h4>
+          <p style="font-size: 0.9rem; line-height: 1.7; color: var(--text-muted); margin: 0;">
+            All asset purchases are governed through attorney-managed escrow or Escrow.com. Transfer protocols include domain registrar authorization code release, primary ownership delegation in Google Publisher Center and Google Search Console, full database migration, and a mandatory post-transfer indexing verification test.
+          </p>
+        </div>
+      </div>
 
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-10-09 • 04:45 PM EST</span>
-            <a href="google-sandbox-bypass-the-publisher-center-loophole/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
+      <div style="border-top: 1px solid var(--border-subtle); padding-top: 24px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+        <span style="font-size: 0.85rem; color: var(--text-dim);">
+          All published masterclasses adhere to the TopStoriesWebsites.com Editorial Standards and Verified Publisher Code of Conduct.
+        </span>
+        <div style="display: flex; gap: 12px;">
+          <a href="/tools/google-news-site-valuation-calculator/" class="btn btn-secondary btn-sm">Calculate Asset Valuation &rarr;</a>
+          <a href="/#marketplace-section" class="btn btn-primary btn-sm">Browse Verified Assets &rarr;</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <!-- Empirical Case Study & Operational Onboarding SOP -->
+  <section class="container" style="margin-bottom: 70px;">
+    <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 48px; box-shadow: var(--shadow-card);">
       
-        <article class="listing-card art-card" data-status="scheduled" data-month="oct" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Oct 21, 2026 • 02:30 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
+      <div style="display: flex; gap: 12px; align-items: center; margin-bottom: 16px;">
+        <span class="badge badge-cyan">Empirical Asset Case Study</span>
+        <span style="font-size: 0.8rem; color: var(--text-dim); font-family: var(--font-mono);">DATASET: DISCOVER-SCALE-2026</span>
+      </div>
+
+      <h2 style="font-size: 2rem; font-weight: 800; color: var(--text-main); margin-bottom: 20px; line-height: 1.3;">
+        Case Study: Scaling a Dormant News Domain to 480,000 Monthly Discover Sessions <br>
+        <span class="gradient-text">The 90-Day Publisher Turnaround Blueprint</span>
+      </h2>
+
+      <p style="font-size: 1rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 24px;">
+        In Q1 2026, an institutional portfolio client acquired a dormant Google News approved media asset that had ceased active editorial production for seven months. Traditional SEO wisdom argued the asset had lost its algorithmic trust. However, by deploying our systematic editorial resuscitation protocol, the publishing team reactivated the domain's priority crawl tier and triggered consistent Google Discover feed syndication within 28 days of transfer. Below is the unredacted operational post-mortem and performance trajectory:
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-bottom: 32px;">
+        <div style="padding: 20px; background: #f8fafc; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-dim); text-transform: uppercase;">Baseline State (Day 0)</span>
+          <div style="font-size: 1.8rem; font-weight: 800; color: var(--text-main); margin: 6px 0;">1,200 Monthly Clicks</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0; line-height: 1.5;">Zero Discover impressions; standard crawl delay of 48 hours per article.</p>
+        </div>
+
+        <div style="padding: 20px; background: #f8fafc; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-dim); text-transform: uppercase;">Resuscitation (Day 30)</span>
+          <div style="font-size: 1.8rem; font-weight: 800; color: var(--primary-cyan); margin: 6px 0;">84,000 Monthly Clicks</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0; line-height: 1.5;">WebSub push hub re-established; sub-2 minute indexation restored.</p>
+        </div>
+
+        <div style="padding: 20px; background: #f8fafc; border-radius: var(--radius-sm); border: 1px solid var(--border-subtle);">
+          <span style="font-size: 0.8rem; font-weight: 700; color: var(--text-dim); text-transform: uppercase;">Full Scale (Day 90)</span>
+          <div style="font-size: 1.8rem; font-weight: 800; color: var(--accent-emerald); margin: 6px 0;">482,500 Monthly Clicks</div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin: 0; line-height: 1.5;">Raptive programmatic integration commanding $38.40 blended RPM.</p>
+        </div>
+      </div>
+
+      <h3 style="font-size: 1.4rem; font-weight: 800; color: var(--text-main); margin-bottom: 16px;">
+        The 7-Day Technical Onboarding SOP for Acquired News Properties
+      </h3>
+      <p style="font-size: 0.95rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 20px;">
+        To ensure zero downtime, prevent algorithmic disruption, and preserve entity equity, all portfolio acquisitions follow this mandatory step-by-step technical standard operating procedure:
+      </p>
+
+      <ol style="padding-left: 20px; color: var(--text-muted); font-size: 0.95rem; line-height: 1.8; margin-bottom: 28px;">
+        <li style="margin-bottom: 10px;">
+          <strong style="color: var(--text-main);">Day 1 — Registrar & Escrow Finalization:</strong> Complete domain auth-code push between registrar accounts, verify WHOIS privacy, and confirm full escrow disbursement conditions.
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong style="color: var(--text-main);">Day 2 — Publisher Center Ownership Delegation:</strong> Grant primary owner permissions within the Google Publisher Center console and assign organizational user roles to incoming editors.
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong style="color: var(--text-main);">Day 3 — Search Console & Analytics Migration:</strong> Verify Search Console via DNS TXT record, audit 90-day crawl stats, and configure server-side Google Analytics 4 tracking.
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong style="color: var(--text-main);">Day 4 — Technical Schema & WebSub Validation:</strong> Validate JSON-LD NewsArticle and Organization schemas, test live WebSub endpoints with Google PubSubHubbub, and verify XML news sitemap response headers.
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong style="color: var(--text-main);">Day 5 — Editorial Baseline Calibration:</strong> Publish three original, high-entity news stories with verified author bylines and run live site-operator time-to-index diagnostics.
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong style="color: var(--text-main);">Day 6 — Ad Stack & Header Bidding Deployment:</strong> Connect Prebid.js adapters, configure Google Ad Manager child publisher networks, and run consent management platform (CMP) audits.
+        </li>
+        <li style="margin-bottom: 10px;">
+          <strong style="color: var(--text-main);">Day 7 — Discover Pipeline Activation:</strong> Deploy high-resolution 16:9 featured imagery (min 1200px width with max-image-preview:large), publish interest-cluster reporting, and monitor Search Console Discover performance dashboards.
+        </li>
+      </ol>
+
+      <div style="background: #f1f5f9; padding: 20px; border-radius: var(--radius-sm); border-left: 4px solid var(--accent-emerald);">
+        <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 6px;">
+          Investor Guarantee & Post-Acquisition Advisory
+        </h4>
+        <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin: 0;">
+          TopStoriesWebsites.com provides full 30-day technical transfer support for every media transaction. Our engineering team assists with DNS cutover, Publisher Center role migration, and WebSub feed debugging to guarantee zero interruption to indexing velocity.
+        </p>
+      </div>
 
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="how-to-hack-google-top-stories-carousel-without-pr-agencies/" style="color: var(--text-main);">How to Rank in Google Top Stories Without Paying Tens of Thousands to PR Agencies</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              PR firms charge $5,000 for a single syndicated story. Learn the exact algorithmic mechanics of entity salience, headline formatting, and WebSub pings to capture the Google Top Stories carousel on your own terms.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-10-21 • 02:30 PM EST</span>
-            <a href="how-to-hack-google-top-stories-carousel-without-pr-agencies/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="oct" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Oct 28, 2026 • 06:10 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">9 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-google-discover-traffic-hack-millions-of-clicks-overnight/" style="color: var(--text-main);">The Google Discover Traffic Hack: Generating Millions of Mobile Clicks Overnight</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Google Discover does not rely on search queries. Here is how to exploit user interest graphs, click-through velocity, and image aspect ratios to trigger six-figure daily traffic spikes.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-10-28 • 06:10 PM EST</span>
-            <a href="the-google-discover-traffic-hack-millions-of-clicks-overnight/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="nov" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Nov 10, 2026 • 01:40 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">7 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="why-fresh-domains-fail-on-google-discover-and-what-to-do-instead/" style="color: var(--text-main);">Why Fresh Domains Fail on Google Discover (And the Proven Workaround)</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Discover requires a minimum entity trust threshold in the Google Knowledge Graph. Learn why starting on a new domain is a losing battle and how pre-vetted publishing assets activate Discover instantly.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-11-10 • 01:40 PM EST</span>
-            <a href="why-fresh-domains-fail-on-google-discover-and-what-to-do-instead/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="jan" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Jan 24, 2027 • 01:15 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-24-hour-ranking-secret-websub-and-news-sitemaps-explained/" style="color: var(--text-main);">The 24-Hour Ranking Secret: WebSub and Google News Sitemaps Teardown</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              A technical architectural breakdown of how Googlebot-News processes WebSub pub/sub protocol pings to crawl, parse, and rank articles before traditional search indexers even notice the URL.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-01-24 • 01:15 PM EST</span>
-            <a href="the-24-hour-ranking-secret-websub-and-news-sitemaps-explained/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="nov" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Nov 22, 2026 • 05:25 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">10 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="how-mediavine-and-raptive-publishers-scale-with-discover-assets/" style="color: var(--text-main);">How Mediavine and Raptive Publishers Scale to $30K/Month with Discover Assets</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Discover traffic is the holy grail for programmatic ad yield. Analyze the real financials, RPM variances ($28 - $46), and acquisition strategies of elite publishing holding companies.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-11-22 • 05:25 PM EST</span>
-            <a href="how-mediavine-and-raptive-publishers-scale-with-discover-assets/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="oct" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Oct 15, 2026 • 08:15 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-top-stories-serp-hijack-ranking-above-forbes-and-nyt/" style="color: var(--text-main);">The Top Stories SERP Hijack: How Small Publishers Outrank Forbes and NYT</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Google's Top Stories algorithm values topic specificity and upload velocity above raw domain rating. Learn how targeted news media properties regularly outrank multi-billion dollar legacy media.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-10-15 • 08:15 AM EST</span>
-            <a href="the-top-stories-serp-hijack-ranking-above-forbes-and-nyt/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="jan" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Jan 31, 2027 • 05:40 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">9 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-digital-real-estate-arbitrage-buying-and-flipping-news-sites/" style="color: var(--text-main);">The Digital Real Estate Arbitrage: Buying and Flipping News Sites for 30x Multiples</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              News publishing domains trade at high-liquidity 24x to 36x monthly multiples. Discover the exact operational playbook for acquiring distressed news assets, fixing monetization, and exiting at a premium.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-01-31 • 05:40 PM EST</span>
-            <a href="the-digital-real-estate-arbitrage-buying-and-flipping-news-sites/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="feb" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Feb 25, 2027 • 02:50 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">11 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="how-to-audit-a-google-news-website-before-buying-due-diligence-guide/" style="color: var(--text-main);">The Due Diligence Checklist: How to Audit a Google News Website Before Buying</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Avoid burned domains and fake screenshot scams. This master due diligence checklist covers Publisher Center primary ownership transfer, GSC manual action logs, backlink toxicity, and crawl tests.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-02-25 • 02:50 PM EST</span>
-            <a href="how-to-audit-a-google-news-website-before-buying-due-diligence-guide/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="dec" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Dec 30, 2026 • 04:20 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="why-smart-seo-agencies-are-quietly-buying-google-news-domains/" style="color: var(--text-main);">Why Smart SEO Agencies Are Quietly Buying Up Google News Domains</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Forward-thinking SEO agencies no longer rely on external guest post vendors. By owning their own Google News assets, they can guarantee instant client rankings, fast backlink indexation, and premium PR distribution.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-12-30 • 04:20 PM EST</span>
-            <a href="why-smart-seo-agencies-are-quietly-buying-google-news-domains/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="mar" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Mar 18, 2027 • 05:45 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="google-publisher-center-approval-in-2026-is-it-still-possible/" style="color: var(--text-main);">Google Publisher Center Approval in 2026: Is It Still Possible or Dead?</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Google shifted from manual Publisher Center inclusion to algorithmic evaluation. Understand why 95% of new applications fail to index and why acquiring pre-existing approvals is the standard industry path.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-03-18 • 05:45 PM EST</span>
-            <a href="google-publisher-center-approval-in-2026-is-it-still-possible/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="feb" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Feb 11, 2027 • 04:30 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">10 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="monetizing-news-websites-adsense-vs-ezoic-vs-mediavine-vs-header-bidding/" style="color: var(--text-main);">Monetizing News Websites: AdSense vs Ezoic vs Mediavine vs Header Bidding</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Yield management for high-velocity news traffic. A breakdown of programmatic SSPs, direct sponsored post rates, ad refresh intervals, and Core Web Vitals optimization.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-02-11 • 04:30 PM EST</span>
-            <a href="monetizing-news-websites-adsense-vs-ezoic-vs-mediavine-vs-header-bidding/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="nov" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Nov 29, 2026 • 03:15 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">7 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-bing-news-goldmine-untapped-traffic-with-zero-competition/" style="color: var(--text-main);">The Bing News Goldmine: Untapped Desktop Traffic with Zero Competition</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              While everyone fights for Google crumbs, Microsoft has integrated Bing News directly into Windows 11 taskbars, Microsoft Start, and Edge defaults. Learn how to capitalize on this high-income audience.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-11-29 • 03:15 PM EST</span>
-            <a href="the-bing-news-goldmine-untapped-traffic-with-zero-competition/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="dec" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Dec 17, 2026 • 07:15 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="how-to-get-syndicated-on-yahoo-news-without-paying-press-release-fees/" style="color: var(--text-main);">How to Get Syndicated on Yahoo News Without Paying $2,000 Press Release Fees</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Yahoo News is one of the highest-converting news aggregators in existence. Here is how media conglomerates leverage owned partner feeds to syndicate articles into Yahoo News and Yahoo Finance automatically.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-12-17 • 07:15 PM EST</span>
-            <a href="how-to-get-syndicated-on-yahoo-news-without-paying-press-release-fees/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="dec" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Dec 5, 2026 • 08:50 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">7 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-indexnow-speedrun-how-bing-indexes-pages-in-3-seconds/" style="color: var(--text-main);">The IndexNow Speedrun: How Bing and Yandex Index Pages in 3 Seconds Flat</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              IndexNow has revolutionized automated submission. Learn how Bing News PubHub approved sites utilize API key endpoints to push breaking articles to Microsoft bots within milliseconds of publishing.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-12-05 • 08:50 AM EST</span>
-            <a href="the-indexnow-speedrun-how-bing-indexes-pages-in-3-seconds/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="jan" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Jan 12, 2027 • 03:45 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">9 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="generative-engine-optimization-how-to-get-cited-by-chatgpt-and-perplexity/" style="color: var(--text-main);">Generative Engine Optimization (GEO): Getting Cited by ChatGPT, Claude & Perplexity</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              LLMs do not randomly guess sources; they retrieve information from authoritative news publications in real-time. Discover why owning a Google News verified domain is the primary catalyst for dominating AI answers.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-01-12 • 03:45 PM EST</span>
-            <a href="generative-engine-optimization-how-to-get-cited-by-chatgpt-and-perplexity/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="dec" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Dec 11, 2026 • 12:30 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-multichannel-news-domination-google-bing-and-yahoo-simultaneous-ranking/" style="color: var(--text-main);">Multichannel News Domination: Ranking on Google, Bing and Yahoo Simultaneously</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Single-channel risk is the biggest vulnerability in SEO. Discover how to configure RSS feeds, canonical hierarchies, and schema structures to generate triple-engine traffic concurrently.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-12-11 • 12:30 PM EST</span>
-            <a href="the-multichannel-news-domination-google-bing-and-yahoo-simultaneous-ranking/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="feb" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Feb 17, 2027 • 08:40 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="parasite-seo-vs-owned-news-sites-why-owned-media-wins-every-time/" style="color: var(--text-main);">Parasite SEO vs Owned News Sites: Why Owned Media Wins Every Single Time</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Renting subdomains on Outlook India or Times of India is expensive, volatile, and subject to overnight deletion. Compare the unit economics of parasite SEO versus owning your own algorithmic news asset.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-02-17 • 08:40 AM EST</span>
-            <a href="parasite-seo-vs-owned-news-sites-why-owned-media-wins-every-time/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="nov" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Nov 4, 2026 • 10:15 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-freshness-multiplier-how-qdf-query-deserves-freshness-supercharges-rankings/" style="color: var(--text-main);">The Freshness Multiplier: How Google's QDF Algorithm Supercharges Rankings</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Google's 'Query Deserves Freshness' (QDF) algorithm temporarily elevates new content from verified news publications above static evergreen sites. Here is how to trigger QDF intentionally.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-11-04 • 10:15 AM EST</span>
-            <a href="the-freshness-multiplier-how-qdf-query-deserves-freshness-supercharges-rankings/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="mar" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Mar 10, 2027 • 01:10 PM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">9 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="how-to-revive-a-dormant-google-news-domain-for-maximum-traffic/" style="color: var(--text-main);">How to Revive a Dormant Google News Domain for Maximum Traffic and Value</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Acquired a grandfathered news property that hasn't posted in 12 months? Step-by-step playbook to re-establish crawl frequency, update RSS feeds, and reignite sub-90s indexing without triggering quality resets.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-03-10 • 01:10 PM EST</span>
-            <a href="how-to-revive-a-dormant-google-news-domain-for-maximum-traffic/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="jan" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Jan 18, 2027 • 09:30 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="schema-markup-secrets-for-instant-news-and-top-stories-indexing/" style="color: var(--text-main);">Schema Markup Secrets for Instant News and Top Stories Indexing (Full Code)</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Complete copy-paste JSON-LD blueprint for NewsArticle, Author, Publisher, and Speakable schemas designed to pass Google Rich Results tests and maximize Top Stories carousel inclusion.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-01-18 • 09:30 AM EST</span>
-            <a href="schema-markup-secrets-for-instant-news-and-top-stories-indexing/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="dec" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Dec 23, 2026 • 11:45 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-press-release-syndication-arbitrage-making-thousands-per-post/" style="color: var(--text-main);">The Press Release Arbitrage: Selling Sponsored Posts on Google News Sites</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Beyond display ads, verified news publishers monetize by distributing client press releases and sponsored articles. Discover how publishers generate $1,000 to $4,000 per post on autopilot.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-12-23 • 11:45 AM EST</span>
-            <a href="the-press-release-syndication-arbitrage-making-thousands-per-post/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="jan" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Jan 6, 2027 • 10:05 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">9 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="building-an-automated-newsroom-ai-augmented-editorial-that-google-loves/" style="color: var(--text-main);">Building an AI-Augmented Editorial Newsroom That Passes Google Quality Audits</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              How modern publishing empires scale from 3 articles to 50 articles daily using AI augmentation combined with human editorial verification, keeping E-E-A-T rock-solid.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-01-06 • 10:05 AM EST</span>
-            <a href="building-an-automated-newsroom-ai-augmented-editorial-that-google-loves/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="mar" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Mar 4, 2027 • 09:20 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-expired-news-domain-trap-why-90-percent-fail-and-how-to-buy-clean-assets/" style="color: var(--text-main);">The Expired News Domain Trap: Why 90% Fail and How to Buy Clean Assets</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Auction domains are frequently stripped of their Google News inclusion status upon registration drop. Learn why buying live, active, pre-vetted publishing assets is the only reliable capital strategy.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-03-04 • 09:20 AM EST</span>
-            <a href="the-expired-news-domain-trap-why-90-percent-fail-and-how-to-buy-clean-assets/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="feb" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Feb 5, 2027 • 11:15 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">11 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="how-to-turn-a-google-news-website-into-a-7-figure-media-company/" style="color: var(--text-main);">How to Turn a Single Google News Website into a 7-Figure Media Enterprise</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              The blueprint from solo site operator to institutional publisher. Diversifying traffic into newsletters, programmatic header bidding, affiliate commerce, and eventual institutional M&A exit.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-02-05 • 11:15 AM EST</span>
-            <a href="how-to-turn-a-google-news-website-into-a-7-figure-media-company/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="nov" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Nov 16, 2026 • 09:05 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">8 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="google-discover-ctr-masterclass-headline-and-image-psychology/" style="color: var(--text-main);">Google Discover CTR Masterclass: Headline Psychology and Image Aspect Ratios</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              Data from analyzing 1.2 million Google Discover clicks. The exact curiosity gaps that drive massive CTR without triggering Google's misleading content clickbait penalties.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2026-11-16 • 09:05 AM EST</span>
-            <a href="google-discover-ctr-masterclass-headline-and-image-psychology/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
-        <article class="listing-card art-card" data-status="scheduled" data-month="mar" style="display: none; flex-direction: column; justify-content: space-between;">
-          <div>
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px;">
-              <span class="badge badge-cyan">⏱ Scheduled: Mar 26, 2027 • 11:35 AM</span>
-              <span style="font-size: 0.775rem; color: var(--text-dim);">9 min read</span>
-            </div>
-
-            <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3;">
-              <a href="the-future-of-news-seo-google-ai-overviews-and-publisher-survival/" style="color: var(--text-main);">The Future of News SEO: Google AI Overviews, SGE, and Publisher Survival</a>
-            </h3>
-
-            <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 20px;">
-              As Google rolls out AI Overviews globally, traditional affiliate blogs are losing 40-70% of organic traffic. Discover why Google News verified publishers are the only media assets gaining net AI citations.
-            </p>
-          </div>
-
-          <div style="padding-top: 14px; border-top: 1px solid var(--border-subtle); display: flex; justify-content: space-between; align-items: center;">
-            <span style="font-size: 0.8rem; color: var(--text-dim);">2027-03-26 • 11:35 AM EST</span>
-            <a href="the-future-of-news-seo-google-ai-overviews-and-publisher-survival/" class="btn btn-secondary btn-sm">Preview Scheduled &rarr;</a>
-          </div>
-        </article>
-      
     </div>
   </section>
 
@@ -941,57 +586,20 @@
   </footer>
 
   <script>
-    function filterArticles(filter, btn) {
+    function filterPublished(category, btn) {
       document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
       if (btn) btn.classList.add('active');
-      
+
       const cards = document.querySelectorAll('.art-card');
-      const banner = document.getElementById('articlesStatusBanner');
-      let visibleCount = 0;
-
       cards.forEach(c => {
-        const isLive = c.dataset.status === 'live';
-        const month = c.dataset.month;
-        let match = false;
-
-        if (filter === 'today') {
-          match = isLive;
-        } else if (filter === 'scheduled') {
-          match = !isLive;
-        } else if (filter === 'all') {
-          match = true;
-        } else if (month === filter) {
-          match = true;
-        }
-
-        if (match) {
+        if (category === 'all' || c.dataset.category === category) {
           c.style.display = 'flex';
-          visibleCount++;
         } else {
           c.style.display = 'none';
         }
       });
-
-      if (banner) {
-        if (filter === 'today') {
-          banner.style.background = 'rgba(5, 150, 105, 0.06)';
-          banner.style.borderColor = 'rgba(5, 150, 105, 0.25)';
-          banner.innerHTML = `<div style="display: flex; align-items: center; gap: 12px;"><span class="pulse-dot"></span><span style="font-size: 0.95rem; color: var(--text-main); font-weight: 700;">Currently Showing: <strong style="color: var(--accent-emerald);">2 Live Masterclasses Published Today (September 26, 2026)</strong></span></div><span style="font-size: 0.85rem; color: var(--text-dim);">28 upcoming strategic assets scheduled (4–6 per month). Click <strong>'Scheduled Queue'</strong> to inspect upcoming publications.</span>`;
-        } else if (filter === 'scheduled') {
-          banner.style.background = 'rgba(2, 132, 199, 0.06)';
-          banner.style.borderColor = 'rgba(2, 132, 199, 0.25)';
-          banner.innerHTML = `<div style="display: flex; align-items: center; gap: 12px;"><span style="color: var(--primary-cyan); font-weight: 800; font-size: 1.1rem;">⏱</span><span style="font-size: 0.95rem; color: var(--text-main); font-weight: 700;">Editorial Dispatch Pipeline: <strong style="color: var(--primary-cyan);">28 Scheduled Publications</strong> (4–6 per month through March 2027)</span></div><span style="font-size: 0.85rem; color: var(--text-dim);">Staggered algorithmic publication schedule. Click any article to review.</span>`;
-        } else if (filter === 'all') {
-          banner.style.background = 'rgba(241, 245, 249, 0.8)';
-          banner.style.borderColor = 'var(--border-subtle)';
-          banner.innerHTML = `<div style="display: flex; align-items: center; gap: 12px;"><span style="font-size: 1.1rem;">📚</span><span style="font-size: 0.95rem; color: var(--text-main); font-weight: 700;">Master Library: <strong>All 30 Publications</strong> (2 Live Today + 28 Scheduled)</span></div><span style="font-size: 0.85rem; color: var(--text-dim);">Complete authoritative SEO and news arbitrage collection.</span>`;
-        } else {
-          banner.style.background = 'rgba(2, 132, 199, 0.06)';
-          banner.style.borderColor = 'rgba(2, 132, 199, 0.25)';
-          banner.innerHTML = `<div style="display: flex; align-items: center; gap: 12px;"><span style="color: var(--primary-cyan); font-weight: 800; font-size: 1.1rem;">📅</span><span style="font-size: 0.95rem; color: var(--text-main); font-weight: 700;">Monthly Editorial Batch: <strong>${visibleCount} Strategic Publications</strong> Scheduled</span></div><span style="font-size: 0.85rem; color: var(--text-dim);">Targeted algorithmic release window.</span>`;
-        }
-      }
     }
   </script>
+  <script src="/js/scheduled-articles-backend.js"></script>
 </body>
 </html>
